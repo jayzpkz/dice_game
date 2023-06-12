@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link href="https://fonts.cdnfonts.com/css/comic-sans" rel="stylesheet">
+  <title>Dice Game</title>
+  <link rel="icon" type="image/png" href="./images/dices.png">
+</head>
+
+<body>
+
+  <main class="main_container">
+    <h1 class="title">Roll the Dice</h1>
+
+    <!-- First Player -->
+    <div class="game_container">
+      <div class="player_container first_player">
+        <p class="player_text">
+          Player 1
+        </p>
+        <div class="player_dice">
+          <div class="dice_row">
+            <span class="dice_circle"></span>
+            <span class="dice_circle"></span>
+          </div>
+
+          <div class="dice_row">
+            <span class="dice_circle"></span>
+            <span class="dice_circle hide"></span>
+            <span class="dice_circle"></span>
+          </div>
+
+          <div class="dice_row">
+            <span class="dice_circle"></span>
+            <span class="dice_circle"></span>
+          </div>
+        </div>
+      </div>
+      <!-- First Player End -->
+
+      <!-- Second Player -->
+      <div class="player_container second_player">
+        <p class="player_text">
+          Player 2
+        </p>
+        <div class="player_dice">
+          <div class="dice_row">
+            <span class="dice_circle"></span>
+            <span class="dice_circle"></span>
+          </div>
+
+          <div class="dice_row">
+            <span class="dice_circle"></span>
+            <span class="dice_circle hide"></span>
+            <span class="dice_circle"></span>
+          </div>
+
+          <div class="dice_row">
+            <span class="dice_circle"></span>
+            <span class="dice_circle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Second Player End -->
+
+    <button class="roll_btn">
+      Roll
+    </button>
+
+    <footer class="footer">Made by Arie</footer>
+  </main>
+
+  <script src="./scripts/game.js"></script>
+</body>
+
+</html>
